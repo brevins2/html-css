@@ -1,0 +1,111 @@
+nav {
+    height: 100vh;
+    width: 100vw;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-top {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.navbar-brand {
+    margin-right: 60%;
+}
+
+.collapse {
+    margin-left: 60%;
+    width: 70%;
+}
+
+.nav-item {
+    margin-right: .9rem;
+    font-size: 2rem;
+    width: 8vw;
+    border: 1px solid;
+}
+
+.nav-item a {
+    height: 100%;
+    width: 8vw;
+    margin: 0 auto;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+}
+
+.nav-item:hover a, .nav-item:hover a i {
+    color: white !important;
+}
+
+ul .btn-outline-danger {
+    padding-bottom: 1rem !important;
+    width: 7vw;
+    height: 7vh;
+    vertical-align: top;
+}
+
+.body {
+    margin: 0 auto;
+    margin-top: 20rem;
+    bottom: 0;
+    width: 75%;
+    height: 58vh;
+    padding: 1rem;
+    color: white;
+}
+
+.justify-content-start input {
+    margin-right: 1rem;
+    width: 20vw;
+}
+
+h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btns {
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.btns button {
+    margin-right: 1rem;
+    width: 12vw;
+    font-weight: bolder;
+    border: 2px solid;
+}
+
+.star {
+    background-image: linear-gradient(to right, #ee4883 0%, #f57449 100%);
+    border: 1px solid #f15f66 !important;
+    color: #FFF;
+}
+
+.jump {
+    margin-right: 1rem;
+    width: 12vw;
+    font-size: 1.2rem;
+    height: 3.5rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #ee4883 0%, #f57449 100%);
+    border: 1px solid #f15f66 !important;
+    color: white;
+}
+
+.main-search .search-form .input {
+    float: left;
+    padding: 0 5px;
+    margin-bottom: 22px;
+    position: relative;
+    width: 33.33% !important;
+}
